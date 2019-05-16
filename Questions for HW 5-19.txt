@@ -1,0 +1,3 @@
+How to avoid the "Your Name" box font from overlapping the box
+
+How to avoid the "Inner Box" background from overlapping footer when shrinking width of webpage
