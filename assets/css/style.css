@@ -138,10 +138,9 @@
 
 .imagecontainer1 {
   width: 200px;
-  height: 200px;
+  height: 175px;
   background: url(http://lorempixel.com/output/fashion-q-c-200-200-5.jpg);
   float: left;
-  overflow: auto;
   clear: both;
   margin: 10px;
 }
@@ -150,7 +149,7 @@
 
 .imagecontainer2 {
   width: 200px;
-  height: 200px;
+  height: 175px;
   background: url(http://lorempixel.com/output/technics-q-c-200-200-7.jpg);
   float: left;
   margin: 10px;
@@ -159,7 +158,7 @@
 
 .imagecontainer3 {
   width: 200px;
-  height: 200px;
+  height: 175px;
   background: url(http://lorempixel.com/output/animals-q-c-200-200-9.jpg);
   float: left;
   margin: 10px;
@@ -169,7 +168,7 @@
 
 .imagecontainer4 {
   width: 200px;
-  height: 200px;
+  height: 175px;
   background: url(http://lorempixel.com/output/sports-q-c-200-200-10.jpg);
   float: left;
   margin: 10px;
@@ -178,10 +177,11 @@
 
 .imagecontainer5 {
   width: 200px;
-  height: 200px;
+  height: 175px;
   background: url(http://lorempixel.com/output/nightlife-q-c-200-200-10.jpg);
   float: left;
   margin: 10px;
+  clear:both;
 }
 
 .portfolio-img {
@@ -194,6 +194,6 @@
   bottom: 20px; 
   overflow: auto;
   clear: both;
-  margin-top: 70%;
+  margin-top: 60%;
   text-decoration: none;  
 }
