@@ -16,11 +16,12 @@
     width: 10%;
     margin: 0px 0px 0px 15%;
     background: #4aaaa5;
-    height: 50px;
-    padding: 0px 5px 0px 5px;
+    height: 45px;
+    padding: 0px 5px 5px 5px;
     float: left;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
+    /* word-wrap: break-word; */
   }
   
   #about {
@@ -56,7 +57,7 @@
   .outerbody {
     background:
       url(https://assets.awwwards.com/awards/images/2015/04/pattern.jpg);
-      height: 600px;
+      height: 800px;
       clear: both;
       padding: 25px;
       position: relative;
@@ -86,9 +87,6 @@
     padding: 0 2% 2% 0;
   }
   
-  p {
-    
-  }
   
   footer {
     background: #666666;
@@ -186,17 +184,19 @@
   float: left;
   overflow: auto;
   clear: both;
+  margin: 10px;
 }
 
 #img1txt {
   color: white;
   text-align: center;
   background: teal;
-  padding: 15px 66px 15px 65px;
-  position: absolute;
+  padding: 15px 0px 15px 0px;
+  width: 200px;
   bottom: 20px; 
   overflow: auto;
   clear: both;
+  margin-top: 70%;
 }
 
 .imagecontainer2 {
@@ -204,15 +204,19 @@
   height: 200px;
   background: url(http://lorempixel.com/output/technics-q-c-200-200-7.jpg);
   float: left;
+  margin: 10px;
 }
 
 #img2txt {
   color: white;
   text-align: center;
   background: teal;
-  padding: 15px 66px 15px 65px;
-  position: absolute;
+  padding: 15px 0px 15px 0px;
+  width: 200px;
   bottom: 20px; 
+  overflow: auto;
+  clear: both;
+  margin-top: 70%; 
 }
 
 .imagecontainer3 {
@@ -220,15 +224,20 @@
   height: 200px;
   background: url(http://lorempixel.com/output/animals-q-c-200-200-9.jpg);
   float: left;
+  margin: 10px;
+  /* clear: both; */
 }
 
 #img3txt {
   color: white;
   text-align: center;
   background: teal;
-  padding: 15px 66px 15px 65px;
-  position: absolute;
+  padding: 15px 0px 15px 0px;
+  width: 200px;
   bottom: 20px; 
+  overflow: auto;
+  clear: both;
+  margin-top: 70%; 
 }
 
 .imagecontainer4 {
@@ -236,15 +245,19 @@
   height: 200px;
   background: url(http://lorempixel.com/output/sports-q-c-200-200-10.jpg);
   float: left;
+  margin: 10px;
 }
 
 #img4txt {
   color: white;
   text-align: center;
   background: teal;
-  padding: 15px 66px 15px 65px;
-  position: absolute;
+  padding: 15px 0px 15px 0px;
+  width: 200px;
   bottom: 20px; 
+  overflow: auto;
+  clear: both;
+  margin-top: 70%; 
 }
 
 .imagecontainer5 {
@@ -252,13 +265,17 @@
   height: 200px;
   background: url(http://lorempixel.com/output/nightlife-q-c-200-200-10.jpg);
   float: left;
+  margin: 10px;
 }
 
 #img5txt {
-  color: white;
+   color: white;
   text-align: center;
   background: teal;
-  padding: 15px 66px 15px 65px;
-  position: absolute;
-  bottom: 20px;
+  padding: 15px 0px 15px 0px;
+  width: 200px;
+  bottom: 20px; 
+  overflow: auto;
+  clear: both;
+  margin-top: 70%; 
 }
