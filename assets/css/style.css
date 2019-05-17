@@ -25,6 +25,7 @@
   }
   
   #about {
+    display: block;
     padding: 15px;
     margin: 0px 10% 0px 0px;
     height: 20px;
@@ -32,9 +33,11 @@
     background: white;
     color: gray;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+    text-decoration: none;
   }
   
   #portfolio {
+    display: block;
     padding: 15px;
     margin: 0px 0px 0px 0px;
     height: 20px;
@@ -42,9 +45,11 @@
     background: white;
     color: gray;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+    text-decoration: none;
   }
   
   #contact {
+    display: block;
     padding: 15px;
     margin: 0px 0px 0px 0px;
     height: 20px;
@@ -52,6 +57,7 @@
     background: white;
     color: gray;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+    text-decoration: none;
   }
   
   .outerbody {
@@ -129,53 +135,6 @@
   border-color: #dddddd;
 }
 
-.img-p1 {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.img-p2 {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.img-p3 {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.img-p4 {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.img-p5 {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-#hangman-photo {
-  position: absolute;
-  color: white;
-  text-align: center;
-  background: teal;
-  top: 145px;
-  padding: 15px 66px 15px 65px;
-}
-
-#rpg-game {
-  position: absolute;
-  color: white;
-  text-align: center;
-  background: teal;
-  top: 145px;
-  padding: 15px 66px 15px 65px;
-}
 
 .imagecontainer1 {
   width: 200px;
@@ -187,17 +146,7 @@
   margin: 10px;
 }
 
-#img1txt {
-  color: white;
-  text-align: center;
-  background: teal;
-  padding: 15px 0px 15px 0px;
-  width: 200px;
-  bottom: 20px; 
-  overflow: auto;
-  clear: both;
-  margin-top: 70%;
-}
+
 
 .imagecontainer2 {
   width: 200px;
@@ -207,17 +156,6 @@
   margin: 10px;
 }
 
-#img2txt {
-  color: white;
-  text-align: center;
-  background: teal;
-  padding: 15px 0px 15px 0px;
-  width: 200px;
-  bottom: 20px; 
-  overflow: auto;
-  clear: both;
-  margin-top: 70%; 
-}
 
 .imagecontainer3 {
   width: 200px;
@@ -228,17 +166,6 @@
   /* clear: both; */
 }
 
-#img3txt {
-  color: white;
-  text-align: center;
-  background: teal;
-  padding: 15px 0px 15px 0px;
-  width: 200px;
-  bottom: 20px; 
-  overflow: auto;
-  clear: both;
-  margin-top: 70%; 
-}
 
 .imagecontainer4 {
   width: 200px;
@@ -248,17 +175,6 @@
   margin: 10px;
 }
 
-#img4txt {
-  color: white;
-  text-align: center;
-  background: teal;
-  padding: 15px 0px 15px 0px;
-  width: 200px;
-  bottom: 20px; 
-  overflow: auto;
-  clear: both;
-  margin-top: 70%; 
-}
 
 .imagecontainer5 {
   width: 200px;
@@ -268,19 +184,7 @@
   margin: 10px;
 }
 
-#img5txt {
-   color: white;
-  text-align: center;
-  background: teal;
-  padding: 15px 0px 15px 0px;
-  width: 200px;
-  bottom: 20px; 
-  overflow: auto;
-  clear: both;
-  margin-top: 70%; 
-}
-
-a {
+.portfolio-img {
   display: block;
   color: white;
   text-align: center;
@@ -290,5 +194,6 @@ a {
   bottom: 20px; 
   overflow: auto;
   clear: both;
-  margin-top: 70%; 
+  margin-top: 70%;
+  text-decoration: none;  
 }
