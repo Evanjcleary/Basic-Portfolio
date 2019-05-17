@@ -163,7 +163,7 @@
   background: url(http://lorempixel.com/output/animals-q-c-200-200-9.jpg);
   float: left;
   margin: 10px;
-  /* clear: both; */
+  clear: both;
 }
 
 
