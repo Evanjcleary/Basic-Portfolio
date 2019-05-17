@@ -279,3 +279,16 @@
   clear: both;
   margin-top: 70%; 
 }
+
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  background: teal;
+  padding: 15px 0px 15px 0px;
+  width: 200px;
+  bottom: 20px; 
+  overflow: auto;
+  clear: both;
+  margin-top: 70%; 
+}
