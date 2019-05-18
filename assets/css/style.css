@@ -124,7 +124,7 @@
 
 #messagebox {
   width: 100%;
-  height: 100px;
+  height: 100px; 
 }
 
 #submitbox {
@@ -196,4 +196,45 @@
   clear: both;
   margin-top: 60%;
   text-decoration: none;  
+}
+
+#contact:hover {
+  background: #4aaaa5;
+  color: white;
+}
+
+#portfolio:hover {
+  background: #4aaaa5;
+  color: white;
+}
+
+#about:hover {
+  background: #4aaaa5;
+  color: white;
+}
+
+.portfolio-img:hover {
+  background: white;
+  color: #4aaaa5;
+}
+
+#submitbox:hover {
+  background: white;
+  color: #4aaaa5;
+  border-color: black;
+}
+
+#contact:active {
+  background: gray;
+  color: white;
+}
+
+#portfolio:active {
+  background: gray;
+  color: white;
+}
+
+#about:active {
+  background: gray;
+  color: white;
 }
