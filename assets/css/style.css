@@ -63,7 +63,7 @@
   .outerbody {
     background:
       url(https://assets.awwwards.com/awards/images/2015/04/pattern.jpg);
-      height: 800px;
+      height: 1000px;
       clear: both;
       padding: 25px;
       position: relative;
@@ -72,8 +72,8 @@
   .innerbody {
     background: white;
     margin: 5% 0% 0 25%;
-    width: 960px;
-    padding: 2%;
+    width: 900px;
+    padding: 30px;
     border-width: 1px;
     border-style: solid;
     border-color: #dddddd;
